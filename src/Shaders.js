@@ -158,7 +158,7 @@ const Shaders = {
 
   // Get the shader object by id.
   get (id) {
-    return Object.freeze(shaders[id]);
+    return shaders[id];
   },
 
   // Synchronously retrieve the successful compilation response.
